@@ -1,0 +1,43 @@
+{
+  "name": "dockerdashboard",
+  "version": "1.0.0",
+  "description": "socket io project for docker monitoring",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"nodemon server.js\" \"webpack --watch\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tharangar/sockerIObiCOM.git"
+  },
+  "keywords": [
+    "socketio"
+  ],
+  "author": "Tharanga Rajapaksha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tharangar/sockerIObiCOM/issues"
+  },
+  "homepage": "https://github.com/tharangar/sockerIObiCOM#readme",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "dockerode": "^2.5.5",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^4.1.2",
+    "@types/classnames": "^2.2.6",
+    "@types/jquery": "^3.3.6",
+    "@types/lodash": "^4.14.116",
+    "@types/react": "^16.4.11",
+    "@types/react-dom": "^16.0.7",
+    "@types/socket.io": "^1.4.37",
+    "@types/socket.io-client": "^1.4.32",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^4.5.0"
+  }
+}
