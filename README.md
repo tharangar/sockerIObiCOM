@@ -28,8 +28,11 @@ This project is a good start to learn about node and react with socker.io.
 
 Following url are the refference for this project and you may use bellow source for further clarifications.
 
-https://dzone.com/articles/create-a-docker-dashboard-with-typescript-react-an
-https://github.com/elkdanger/docker-dashboard-example
+1. https://auth0.com/blog/docker-dashboard-with-react-typescript-socketio/
+
+2. https://dzone.com/articles/create-a-docker-dashboard-with-typescript-react-an
+
+3. https://github.com/elkdanger/docker-dashboard-example
 
 Further completed project can be cloned from bellow url:https://github.com/tharangar/sockerIObiCOM.git
 
