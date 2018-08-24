@@ -84,6 +84,7 @@ export class ContainerListItem extends React.Component<Container, {}> {
                     <div className="panel-body">
                         Status: {this.props.status}<br/>
                         Image: {this.props.image}
+                        More :{this.props.state}
                     </div>
                     <div className="panel-footer">
                         <button onClick={this.onActionButtonClick.bind(this)} className="btn btn-default">{buttonText}</button>
